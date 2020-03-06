@@ -75,7 +75,7 @@ canvas.drawEllipse(at: Point(x: 200, y: 400), width: 60, height: 60, borderWidth
 
 // So I know that the spacing should be 50 so therefore the size should be 100 then
 
-
+canvas.drawEllipse(at: Point(x: 200, y: 400), width: 115, height: 115, borderWidth: 14)
 
 
 // Going through the logic
@@ -99,6 +99,35 @@ canvas.drawEllipse(at: Point(x: 200, y: 400), width: 60, height: 60, borderWidth
 
 
 //Writing out the text
+canvas.drawText(message: "superdrag", at: Point(x: 15, y: 95), size: 66, kerning: 0.0)
+
+
+//First row
+canvas.drawText(message: "with", at: Point(x: 20, y: 50), size: 10, kerning: 0.0)
+
+canvas.drawText(message: "the shambles ", at: Point(x: 20, y: 35), size: 10, kerning: 0.0)
+
+canvas.drawText(message: "and litter", at: Point(x: 20, y: 20), size: 10, kerning: 0.0)
+
+
+
+
+
+
+
+//Second row
+canvas.drawText(message: "at olympic auditorium", at: Point(x: 160, y: 430), size: 11, kerning: 0.0)
+
+canvas.drawText(message: "1801 s. grand ave.", at: Point(x: 160, y: 415), size: 11, kerning: 0.0)
+
+canvas.drawText(message: "los angeles, california", at: Point(x: 160, y: 400), size: 11, kerning: 0.0)
+
+canvas.drawText(message: "with the tourists", at: Point(x: 160, y: 300), size: 11, kerning: 0.0)
+
+
+
+
+
 
 
 
