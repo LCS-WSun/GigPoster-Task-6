@@ -103,26 +103,31 @@ canvas.drawText(message: "superdrag", at: Point(x: 15, y: 95), size: 66, kerning
 
 
 //First row
-canvas.drawText(message: "with", at: Point(x: 20, y: 50), size: 10, kerning: 0.0)
+canvas.drawText(message: "with", at: Point(x: 20, y: 50), size: 9, kerning: 0.0)
 
-canvas.drawText(message: "the shambles ", at: Point(x: 20, y: 35), size: 10, kerning: 0.0)
+canvas.drawText(message: "the shambles ", at: Point(x: 20, y: 35), size: 9, kerning: 0.0)
 
-canvas.drawText(message: "and litter", at: Point(x: 20, y: 20), size: 10, kerning: 0.0)
-
-
-
+canvas.drawText(message: "and lifter", at: Point(x: 20, y: 20), size: 9, kerning: 0.0)
 
 
 
 
 //Second row
-canvas.drawText(message: "at olympic auditorium", at: Point(x: 160, y: 430), size: 11, kerning: 0.0)
+canvas.drawText(message: "thursday", at: Point(x: 110, y: 50), size: 9, kerning: 0.0)
 
-canvas.drawText(message: "1801 s. grand ave.", at: Point(x: 160, y: 415), size: 11, kerning: 0.0)
+canvas.drawText(message: "june 13 1996 / 8:30", at: Point(x: 110, y: 35), size: 9, kerning: 0.0)
 
-canvas.drawText(message: "los angeles, california", at: Point(x: 160, y: 400), size: 11, kerning: 0.0)
+canvas.drawText(message: "no age limit ", at: Point(x: 110, y: 20), size: 9, kerning: 0.0)
 
-canvas.drawText(message: "with the tourists", at: Point(x: 160, y: 300), size: 11, kerning: 0.0)
+//Third Row
+
+canvas.drawText(message: "at brick by brick", at: Point(x: 300, y: 50), size: 9, kerning: 0.0)
+
+canvas.drawText(message: "1130 buenos avenue", at: Point(x: 300, y: 35), size: 9, kerning: 0.0)
+
+canvas.drawText(message: "san diego ,ca ", at: Point(x: 300, y: 20), size: 9, kerning: 0.0)
+
+
 
 
 
@@ -151,6 +156,5 @@ canvas.drawLine(from: Point(x: x, y: 0), to: Point(x: x, y: 600))
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
  */
 PlaygroundPage.current.liveView = canvas
-
 
 }
