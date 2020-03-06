@@ -90,10 +90,23 @@ canvas.drawEllipse(at: Point(x: 200, y: 400), width: 115, height: 115, borderWid
 
 
 
+//Trying a loop
+
+canvas.borderColor = offWhite
+
+canvas.drawShapesWithFill = false
+
+canvas.drawShapesWithBorders = true
 
 
 
+//canvas.borderColor = offWhite
 
+//for circleWithnoFill in 0...8 {
+
+//canvas.drawEllipse(at: Point(x: circleWithnoFill * 100 + 50, y: 60), width: 60, height: 60)
+    
+//}
 
 
 
