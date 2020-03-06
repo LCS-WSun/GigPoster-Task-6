@@ -51,6 +51,22 @@ canvas.drawRectangle(at: Point(x: 0, y: 0), width: 400, height: 600)
 
 
 
+
+canvas.fillColor = offWhite
+
+canvas.drawShapesWithBorders = false
+
+canvas.drawShapesWithFill = true
+
+canvas.drawEllipse(at: Point(x: 200, y: 400), width: 10, height: 10)
+
+
+//Writing out the text
+
+
+
+
+
 /*:
  ## Use Source Control
  
