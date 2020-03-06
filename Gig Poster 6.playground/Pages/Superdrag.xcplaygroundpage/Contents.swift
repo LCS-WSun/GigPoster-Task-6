@@ -58,7 +58,7 @@ canvas.drawShapesWithBorders = false
 
 canvas.drawShapesWithFill = true
 
-canvas.drawEllipse(at: Point(x: 200, y: 400), width: 15, height: 15)
+canvas.drawEllipse(at: Point(x: 200, y: 400), width: 20, height: 20)
 
 
 
@@ -71,9 +71,9 @@ canvas.drawShapesWithFill = false
 canvas.drawShapesWithBorders = true
 
 
-canvas.drawEllipse(at: Point(x: 200, y: 400), width: 50, height: 50, borderWidth: 0)
+canvas.drawEllipse(at: Point(x: 200, y: 400), width: 60, height: 60, borderWidth: 14)
 
-
+// So I know that the spacing should be 50 so therefore the size should be 100 then
 
 
 
