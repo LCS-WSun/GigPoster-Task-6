@@ -58,13 +58,55 @@ canvas.drawShapesWithBorders = false
 
 canvas.drawShapesWithFill = true
 
-canvas.drawEllipse(at: Point(x: 200, y: 400), width: 10, height: 10)
+canvas.drawEllipse(at: Point(x: 200, y: 400), width: 15, height: 15)
+
+
+
+// Next circle with no fill
+
+canvas.borderColor = offWhite
+
+canvas.drawShapesWithFill = false
+
+canvas.drawShapesWithBorders = true
+
+
+canvas.drawEllipse(at: Point(x: 200, y: 400), width: 50, height: 50, borderWidth: 0)
+
+
+
+
+
+
+// Going through the logic
+
+// So I created my first circle
+
+// There is a small circle which I created 15 by 15
+
+// Each circle is increasing thickness by a certain number but they remain the same
+
+//The next circle does not have a fill
+
+
+
+
+
+
+
+
+
 
 
 //Writing out the text
 
 
 
+// Making horizontal lines to help with accuracy
+
+for x in stride(from: 0, through: 400, by: 50) {
+
+canvas.drawLine(from: Point(x: x, y: 0), to: Point(x: x, y: 600))
 
 
 /*:
@@ -82,3 +124,4 @@ canvas.drawEllipse(at: Point(x: 200, y: 400), width: 10, height: 10)
 PlaygroundPage.current.liveView = canvas
 
 
+}
